@@ -1,9 +1,5 @@
-# Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
-  
-## `Sorry guys but there will be no update until I buy a new laptop.`
+# Moon Jekyll Theme
     
-######(If you like this theme or using it, please give a :star: for motivation.)
-
 **[Moon](https://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
 
 ## Features
@@ -28,3 +24,34 @@ See a [live version of Moon](https://taylantatli.github.io/Moon) hosted on GitHu
 ## Getting Started
 
 To learn how to install and use this theme check out the [Setup Guide](https://taylantatli.github.io/Moon/moon-theme/) for more information.
+
+
+## Jekyll first time:
+
+* Use the following command:
+```
+sudo apt-get install ruby-full build-essential zlib1g-dev
+```
+
+To start the server locally:
+
+1. Go to the Gemfile directory
+
+2. Run:
+```
+gem install jekyll bundler
+```
+
+3. Then:
+```
+bundle install
+```
+
+4. Finally:
+```
+bundle exec jekyll serve
+```
+
+## More information from Jekyll
+
+[Jekyll Quick Start](https://jekyllrb.com/docs/)
